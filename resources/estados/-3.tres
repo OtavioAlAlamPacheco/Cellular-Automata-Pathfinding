@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Estado" format=3 uid="uid://brkvtbqad2l7u"]
+
+[ext_resource type="Script" uid="uid://bt3yatxeaygvm" path="res://resources/vizinhos/vizinho.gd" id="1_pg6lc"]
+[ext_resource type="Script" uid="uid://bsc7fe3pd7fky" path="res://resources/estados/estado.gd" id="1_qd8xi"]
+[ext_resource type="Resource" uid="uid://bqe6jdub37imx" path="res://resources/vizinhos/esquerda.tres" id="2_7pys6"]
+[ext_resource type="Resource" uid="uid://dulx8m3djwny0" path="res://resources/vizinhos/esquerda_cima.tres" id="3_21fq6"]
+[ext_resource type="Resource" uid="uid://tmsih3pbu7j0" path="res://resources/vizinhos/cima.tres" id="4_k7wyx"]
+[ext_resource type="Resource" uid="uid://5kyrw2hdmweq" path="res://resources/vizinhos/baixo.tres" id="5_n6oug"]
+[ext_resource type="Resource" uid="uid://bw53h16yl2uq5" path="res://resources/vizinhos/esquerda_baixo.tres" id="6_0w3ib"]
+
+[resource]
+script = ExtResource("1_qd8xi")
+movimentos_permitidos = Array[ExtResource("1_pg6lc")]([ExtResource("2_7pys6"), ExtResource("3_21fq6"), ExtResource("4_k7wyx"), ExtResource("5_n6oug"), ExtResource("6_0w3ib")])
+metadata/_custom_type_script = "uid://bsc7fe3pd7fky"

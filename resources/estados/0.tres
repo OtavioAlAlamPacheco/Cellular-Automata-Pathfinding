@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Estado" format=3 uid="uid://ddyrqlllkj0eo"]
+
+[ext_resource type="Script" uid="uid://bt3yatxeaygvm" path="res://resources/vizinhos/vizinho.gd" id="1_yair8"]
+[ext_resource type="Resource" uid="uid://tmsih3pbu7j0" path="res://resources/vizinhos/cima.tres" id="2_0faui"]
+[ext_resource type="Resource" uid="uid://bqe6jdub37imx" path="res://resources/vizinhos/esquerda.tres" id="2_554ig"]
+[ext_resource type="Resource" uid="uid://c3nx4odxctl1n" path="res://resources/vizinhos/direita_cima.tres" id="3_fuacs"]
+[ext_resource type="Resource" uid="uid://dulx8m3djwny0" path="res://resources/vizinhos/esquerda_cima.tres" id="3_k1f05"]
+[ext_resource type="Resource" uid="uid://c7r3msnafdyy3" path="res://resources/vizinhos/direita.tres" id="4_554ig"]
+[ext_resource type="Resource" uid="uid://bdminpbwmixp0" path="res://resources/vizinhos/direita_baixo.tres" id="5_k1f05"]
+[ext_resource type="Resource" uid="uid://5kyrw2hdmweq" path="res://resources/vizinhos/baixo.tres" id="6_n0mci"]
+[ext_resource type="Script" uid="uid://bsc7fe3pd7fky" path="res://resources/estados/estado.gd" id="7_05yce"]
+[ext_resource type="Resource" uid="uid://bw53h16yl2uq5" path="res://resources/vizinhos/esquerda_baixo.tres" id="9_n0mci"]
+
+[resource]
+script = ExtResource("7_05yce")
+movimentos_permitidos = Array[ExtResource("1_yair8")]([ExtResource("2_554ig"), ExtResource("3_k1f05"), ExtResource("2_0faui"), ExtResource("3_fuacs"), ExtResource("4_554ig"), ExtResource("5_k1f05"), ExtResource("6_n0mci"), ExtResource("9_n0mci")])
+metadata/_custom_type_script = "uid://bsc7fe3pd7fky"

@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Vizinho" format=3 uid="uid://tmsih3pbu7j0"]
+
+[ext_resource type="Script" uid="uid://bt3yatxeaygvm" path="res://resources/vizinhos/vizinho.gd" id="1_tgwe5"]
+
+[resource]
+script = ExtResource("1_tgwe5")
+y = 1
+metadata/_custom_type_script = "uid://bt3yatxeaygvm"

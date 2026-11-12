@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Estado" format=3 uid="uid://dpkqvclagatwb"]
+
+[ext_resource type="Script" uid="uid://bsc7fe3pd7fky" path="res://resources/estados/estado.gd" id="1_00pgj"]
+[ext_resource type="Script" uid="uid://bt3yatxeaygvm" path="res://resources/vizinhos/vizinho.gd" id="1_47mln"]
+[ext_resource type="Resource" uid="uid://c7r3msnafdyy3" path="res://resources/vizinhos/direita.tres" id="2_c8lk8"]
+[ext_resource type="Resource" uid="uid://bdminpbwmixp0" path="res://resources/vizinhos/direita_baixo.tres" id="3_7a2ou"]
+[ext_resource type="Resource" uid="uid://5kyrw2hdmweq" path="res://resources/vizinhos/baixo.tres" id="4_8krmf"]
+
+[resource]
+script = ExtResource("1_00pgj")
+movimentos_permitidos = Array[ExtResource("1_47mln")]([ExtResource("2_c8lk8"), ExtResource("3_7a2ou"), ExtResource("4_8krmf")])
+metadata/_custom_type_script = "uid://bsc7fe3pd7fky"
